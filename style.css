@@ -97,4 +97,6 @@ button {
         width: 375px;
         /* border: 2px solid black; */
     }
+    body {
+        display: block;
 }
