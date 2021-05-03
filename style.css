@@ -98,5 +98,7 @@ button {
         /* border: 2px solid black; */
     }
     body {
-        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 90px 0 0;
 }
