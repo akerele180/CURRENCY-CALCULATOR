@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCHANGE RATE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./EXCHANGE.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./EXCHANGE.jpg" alt="exchange-logo">
+            <h1>Exchange Rate Calculator</h1>
+            <em><p>Choose your <strong>BASE</strong> and <strong>QUOTE</strong> currencies respectively...</p></em>
+        </div>
+
+        <div class="base currency">
+            <select name="base-currency" id="base">
+                <option value="USD" selected>USD</option>
+                <option value="ZAR">ZAR</option>
+                <option value="NGN">NGN</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="QAR">QAR</option>
+                <option value="RON">RON</option>
+                <option value="XCD">XCD</option>
+                <option value="TRY">TRY</option>
+                <option value="TTD">TTD</option>
+            </select>
+            <input type="number" name="" id="base-input" placeholder="0" value=1>
+        </div>
+
+        <div class="info-space">
+            <button id='btn'>Swap</button>
+            <span class="conv-info" id='conv-info'></span>
+        </div>
+
+        <div class="quote currency">
+            <select name="quote-currency" id="quote">
+                <option value="USD" >USD</option>
+                <option value="ZAR">ZAR</option>
+                <option value="NGN" selected>NGN</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="QAR">QAR</option>
+                <option value="RON">RON</option>
+                <option value="XCD">XCD</option>
+                <option value="TRY">TRY</option>
+                <option value="TTD">TTD</option>
+            </select>
+            <input type="number" name="" id="quote-input">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
